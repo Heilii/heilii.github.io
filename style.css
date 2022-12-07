@@ -4,7 +4,7 @@ body {
 }
 
 .box {
-    backfround-image: img("villaata.jpg");
+    backfround-image: url("villaata.jpg");
     padding: 5000px;
     margin: 1000px;
 }
