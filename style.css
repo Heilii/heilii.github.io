@@ -2,3 +2,9 @@ body {
     width: 50%;
     margin: auto;
 }
+
+.box {
+    backfround-image: url(img/villaata.jpg);
+    padding: 5000px;
+    margin: 1000px;
+}
