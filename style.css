@@ -80,21 +80,6 @@ button {
     transition: :transform 0.5s;
 }
 
-.card1 {
-    background-image: url(Chiangmai.jpeg);
-}
-.card2{
-    background-image: url(Pattaya.jpeg);
-}
-
-.card3 {
-    background-image: url(Phuket.jpeg);
-}
-
-.card:hover {
-    transform: translateY(-10px);
-}
-
 h4{
     color: #fff;
 }
