@@ -79,7 +79,7 @@ p {
             justify-content: space-between;
     }
     .box:hover {
-    transform: translateY(-30px);
+    transform: translateY(-1px);
     }
     .one {
     grid-column: 1 / 3;
