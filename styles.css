@@ -72,6 +72,8 @@ p {
     background-image: url(picb.jpg);
     display: flex;
             justify-content: space-between;
+    width: 200px;
+    height: 200px;
     } 
     .box3 {
     background-image: url(pic.jpg);
