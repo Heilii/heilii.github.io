@@ -65,15 +65,21 @@ p {
     }
     .box1 {
     background-image: url(sunset.jpg);
+     justify-content: space-between;
     }
     .box2{
     background-image: url(picb.jpg);
+        display: flex;
+        justify-content: space-between;
     } 
     .box3 {
     background-image: url(pic.jpg);
+        display: flex;
+        justify-content: space-between;
     }
     .box:hover {
     transform: translateY(-10px);
+        display: flex;
     }
     .one {
     grid-column: 1 / 3;
