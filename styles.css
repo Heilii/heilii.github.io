@@ -48,8 +48,32 @@ p {
     background-color:rgba(255, 254, 254, 0.354);
     padding: 20px 38px 20px 38px;
     text-align: center;
-
 }
+.box {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    }
+    .box1 {
+    background-image: url(sunset.jpg);
+    }
+    .box2{
+    background-image: url(picb.jpg);
+    } 
+    .box3 {
+    background-image: url(pic.jpg);
+    }
+    .box:hover {
+    transform: translateY(-10px);
+    }
     .one {
     grid-column: 1 / 3;
     grid-row: 1;
@@ -107,4 +131,6 @@ figcaption {
     .grid-container {
         grid-template-columns: 100%;
     }
+   
+  
 }
